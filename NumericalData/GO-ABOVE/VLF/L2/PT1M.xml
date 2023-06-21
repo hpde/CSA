@@ -1,22 +1,13 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_5_0.xsd">
  <Version>2.5.0</Version>
  <NumericalData>
-  <ResourceID>spase://CSA/NumericalData/GO-ABOVE/VLF/L2/Pinawa/PT1M</ResourceID>
+  <ResourceID>spase://CSA/NumericalData/GO-ABOVE/VLF/L2/PT1M</ResourceID>
   <ResourceHeader>
-   <ResourceName>ABOVE Level-2 Amplitude and Phase of VLF transmitter signals at Pinawa (pina)</ResourceName>
-   <ReleaseDate>2023-06-21T17:04:35</ReleaseDate>
-   <RevisionHistory>
-    <RevisionEvent>
-     <ReleaseDate>2022-10-25T11:50:20</ReleaseDate>
-     <Note>Added Name field to the AccessURL and modified RepositoryID</Note>
-    </RevisionEvent>
-    <RevisionEvent>
-     <ReleaseDate>2022-12-27T11:50:20</ReleaseDate>
-     <Note>Added Parameter Key and modified Parameter Names and Descriptions</Note>
-    </RevisionEvent>
-   </RevisionHistory>
+   <ResourceName>ABOVE Level-2 Amplitude and Phase of VLF transmitter
+   signals</ResourceName>
+   <ReleaseDate>2023-06-21T15:42:52</ReleaseDate>
    <Description>Amplitude and phase for narrowband transmitters at
-   ABOVE site Pinawa, Manitoba, Lat: 50.16, Lon: -96.08. The Array for
+   ABOVE sites. The Array for
    Broadband Observations of VLF/ELF Emissions (ABOVE) Level-2 CDF
    files of Amplitude, Phase and Bearing at 1 minute resolution for
    seven VLF transmitters as observed from each station of the ABOVE
@@ -52,14 +43,63 @@
   </ResourceHeader>
   <AccessInformation>
    <RepositoryID>spase://CSA/Repository/UCalgary</RepositoryID>
-   <AccessURL>
-    <Name>GO-ABOVE CDFs from University of Calgary Space Physics Data Page</Name>
-    <URL>https://data.phys.ucalgary.ca/sort_by_instrument/vlf/GO-Canada_ABOVE/CDF/</URL>
-    <Description>Directory tree to access Level-1 and Level-2 CDF data.</Description>
-   </AccessURL>
+         <AccessURL>
+          <Name>GO-ABOVE CDFs for Athabasca (atha)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/Athabasca/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data at Athabasca, Alberta, Lat: 54.60, Lon: -113.65.</Description>
+        </AccessURL>
+        <AccessURL>
+          <Name>GO-ABOVE CDFs for Barrier Lake (barr)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/BarrierLake/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data at Barrier Lake, Alberta, Lat: 51.01, Lon: -115.05.</Description>
+        </AccessURL>
+        <AccessURL>
+          <Name>GO-ABOVE CDFs for Camrose (cmrs)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/Camrose/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data at Camrose, Alberta, Lat: 53.08, Lon: -112.54. </Description>
+        </AccessURL>
+	<AccessURL>
+          <Name>GO-ABOVE CDFs for Fort McMurray (mcmu)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/FortMcMurray/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data at Fort McMurray, Alberta, Lat: 56.76, Lon: -111.58. </Description>
+        </AccessURL>
+	<AccessURL>
+          <Name>GO-ABOVE CDFs for Fort Smith (fsmi)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/FortSmith/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data at Fort Smith, Manitoba, Lat: 59.99, Lon: -111.84. </Description>
+        </AccessURL>
+	<AccessURL>
+          <Name>GO-ABOVE CDFs for Gillam (gill)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/Gillam/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data  at Gillam, Manitoba, Lat: 56.38, Lon: -94.64.</Description>
+        </AccessURL>
+	<AccessURL>
+          <Name>GO-ABOVE CDFs for Island Lake (isll)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/IslandLake/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data  at Island Lake, Manitoba, Lat: 53.85, Lon: -94.66.</Description>
+        </AccessURL>
+	<AccessURL>
+          <Name>GO-ABOVE CDFs for Lucky Lake (luck)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/LuckyLake/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data at Lucky Lake, Saskatchewan, Lat: 51.15, Lon: -107.26.</Description>
+        </AccessURL>
+	<AccessURL>
+          <Name>GO-ABOVE CDFs for Pinawa (pina)</Name>
+          <URL>https://hpde.io/CSA/NumericalData/GO-ABOVE/VLF/L2/Pinawa/PT1M.html</URL>
+          <Description>Directory tree to access Level-1 and Level-2
+	  CDF data at Pinawa, Manitoba, Lat: 50.16, Lon: -96.08.</Description>
+        </AccessURL>
    <Format>CDF</Format>
   </AccessInformation>
-  <InstrumentID>spase://SMWG/Instrument/Pinawa/VLF</InstrumentID>
+  <InstrumentID>spase://SMWG/Instrument/Athabasca/VLF</InstrumentID>
   <MeasurementType>Waves.Passive</MeasurementType>
   <TemporalDescription>
    <TimeSpan>
@@ -77,9 +117,9 @@
    </Support>
   </Parameter>
   <Parameter>
-    <Name>Phase ndk-pina</Name>
-    <ParameterKey>abv_phase_pina_ndk</ParameterKey>
-   <Description>Phase of VLF transmitter NDK observed at pina.
+    <Name>Phase ndk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_phase_(GO-ABOVE station)_ndk</ParameterKey>
+   <Description>Phase of VLF transmitter NDK observed at (GO-ABOVE station).
 Phases for upper (space) and lower (mark) frequencies have been combined. Phase is calculated along direction of maximum amplitude.</Description>
    <Units>radians</Units>
    <Field>
@@ -88,9 +128,9 @@ Phases for upper (space) and lower (mark) frequencies have been combined. Phase 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Amplitude ndk-pina</Name>
-    <ParameterKey>abv_amp_pina_ndk</ParameterKey>
-   <Description>Amplitude of VLF transmitter NDK observed at pina.
+    <Name>Amplitude ndk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_amp_(GO-ABOVE station)_ndk</ParameterKey>
+   <Description>Amplitude of VLF transmitter NDK observed at (GO-ABOVE station).
 Amplitude is calculated separately for North-South and East-West antennas.</Description>
    <Units>ADC units</Units>
    <Field>
@@ -99,9 +139,9 @@ Amplitude is calculated separately for North-South and East-West antennas.</Desc
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Bearing ndk-pina</Name>
-    <ParameterKey>abv_bearing_pina_ndk</ParameterKey>
-   <Description>Bearing to VLF transmitter NDK observed at pina.
+    <Name>Bearing ndk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_bearing_(GO-ABOVE station)_ndk</ParameterKey>
+   <Description>Bearing to VLF transmitter NDK observed at (GO-ABOVE station).
 Bearing direction is based on amplitudes from the 2 antennas and always between 0 (N/S) and 90 (E/W) degrees.
 </Description>
    <Units>degrees</Units>
@@ -111,9 +151,9 @@ Bearing direction is based on amplitudes from the 2 antennas and always between 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Phase naa-pina</Name>
-    <ParameterKey>abv_phase_pina_naa</ParameterKey>
-   <Description>Phase of VLF transmitter NAA observed at pina.
+    <Name>Phase naa-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_phase_(GO-ABOVE station)_naa</ParameterKey>
+   <Description>Phase of VLF transmitter NAA observed at (GO-ABOVE station).
 Phases for upper (space) and lower (mark) frequencies have been combined. Phase is calculated along direction of maximum amplitude.</Description>
    <Units>radians</Units>
    <Field>
@@ -122,9 +162,9 @@ Phases for upper (space) and lower (mark) frequencies have been combined. Phase 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Amplitude naa-pina</Name>
-    <ParameterKey>abv_amp_pina_naa</ParameterKey>
-   <Description>Amplitude of VLF transmitter NAA observed at pina.
+    <Name>Amplitude naa-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_amp_(GO-ABOVE station)_naa</ParameterKey>
+   <Description>Amplitude of VLF transmitter NAA observed at (GO-ABOVE station).
 Amplitude is calculated separately for North-South and East-West antennas.</Description>
    <Units>ADC units</Units>
    <Field>
@@ -133,9 +173,9 @@ Amplitude is calculated separately for North-South and East-West antennas.</Desc
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Bearing naa-pina</Name>
-    <ParameterKey>abv_bearing_pina_naa</ParameterKey>
-   <Description>Bearing to VLF transmitter NAA observed at pina.
+    <Name>Bearing naa-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_bearing_(GO-ABOVE station)_naa</ParameterKey>
+   <Description>Bearing to VLF transmitter NAA observed at (GO-ABOVE station).
 Bearing direction is based on amplitudes from the 2 antennas and always between 0 (N/S) and 90 (E/W) degrees.
 </Description>
    <Units>degrees</Units>
@@ -145,9 +185,9 @@ Bearing direction is based on amplitudes from the 2 antennas and always between 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Phase nlk-pina</Name>
-    <ParameterKey>abv_phase_pina_nlk</ParameterKey>
-   <Description>Phase of VLF transmitter NLK observed at pina.
+    <Name>Phase nlk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_phase_(GO-ABOVE station)_nlk</ParameterKey>
+   <Description>Phase of VLF transmitter NLK observed at (GO-ABOVE station).
 Phases for upper (space) and lower (mark) frequencies have been combined. Phase is calculated along direction of maximum amplitude.</Description>
    <Units>radians</Units>
    <Field>
@@ -156,9 +196,9 @@ Phases for upper (space) and lower (mark) frequencies have been combined. Phase 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Amplitude nlk-pina</Name>
-    <ParameterKey>abv_amp_pina_nlk</ParameterKey>
-   <Description>Amplitude of VLF transmitter NLK observed at pina.
+    <Name>Amplitude nlk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_amp_(GO-ABOVE station)_nlk</ParameterKey>
+   <Description>Amplitude of VLF transmitter NLK observed at (GO-ABOVE station).
 Amplitude is calculated separately for North-South and East-West antennas.</Description>
    <Units>ADC units</Units>
    <Field>
@@ -167,9 +207,9 @@ Amplitude is calculated separately for North-South and East-West antennas.</Desc
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Bearing nlk-pina</Name>
-    <ParameterKey>abv_bearing_pina_nlk</ParameterKey>
-   <Description>Bearing to VLF transmitter NLK observed at pina.
+    <Name>Bearing nlk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_bearing_(GO-ABOVE station)_nlk</ParameterKey>
+   <Description>Bearing to VLF transmitter NLK observed at (GO-ABOVE station).
 Bearing direction is based on amplitudes from the 2 antennas and always between 0 (N/S) and 90 (E/W) degrees.
 </Description>
    <Units>degrees</Units>
@@ -179,9 +219,9 @@ Bearing direction is based on amplitudes from the 2 antennas and always between 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Phase nwc-pina</Name>
-    <ParameterKey>abv_phase_pina_nwc</ParameterKey>
-   <Description>Phase of VLF transmitter NWC observed at pina.
+    <Name>Phase nwc-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_phase_(GO-ABOVE station)_nwc</ParameterKey>
+   <Description>Phase of VLF transmitter NWC observed at (GO-ABOVE station).
 Phases for upper (space) and lower (mark) frequencies have been combined. Phase is calculated along direction of maximum amplitude.</Description>
    <Units>radians</Units>
    <Field>
@@ -190,9 +230,9 @@ Phases for upper (space) and lower (mark) frequencies have been combined. Phase 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Amplitude nwc-pina</Name>
-    <ParameterKey>abv_amp_pina_nwc</ParameterKey>
-   <Description>Amplitude of VLF transmitter NWC observed at pina.
+    <Name>Amplitude nwc-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_amp_(GO-ABOVE station)_nwc</ParameterKey>
+   <Description>Amplitude of VLF transmitter NWC observed at (GO-ABOVE station).
 Amplitude is calculated separately for North-South and East-West antennas.</Description>
    <Units>ADC units</Units>
    <Field>
@@ -201,9 +241,9 @@ Amplitude is calculated separately for North-South and East-West antennas.</Desc
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Bearing nwc-pina</Name>
-    <ParameterKey>abv_bearing_pina_nwc</ParameterKey>
-   <Description>Bearing to VLF transmitter NWC observed at pina.
+    <Name>Bearing nwc-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_bearing_(GO-ABOVE station)_nwc</ParameterKey>
+   <Description>Bearing to VLF transmitter NWC observed at (GO-ABOVE station).
 Bearing direction is based on amplitudes from the 2 antennas and always between 0 (N/S) and 90 (E/W) degrees.
 </Description>
    <Units>degrees</Units>
@@ -213,9 +253,9 @@ Bearing direction is based on amplitudes from the 2 antennas and always between 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Phase npm-pina</Name>
-    <ParameterKey>abv_phase_pina_npm</ParameterKey>
-   <Description>Phase of VLF transmitter NPM observed at pina.
+    <Name>Phase npm-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_phase_(GO-ABOVE station)_npm</ParameterKey>
+   <Description>Phase of VLF transmitter NPM observed at (GO-ABOVE station).
 Phases for upper (space) and lower (mark) frequencies have been combined. Phase is calculated along direction of maximum amplitude.</Description>
    <Units>radians</Units>
    <Field>
@@ -224,9 +264,9 @@ Phases for upper (space) and lower (mark) frequencies have been combined. Phase 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Amplitude npm-pina</Name>
-    <ParameterKey>abv_amp_pina_npm</ParameterKey>
-   <Description>Amplitude of VLF transmitter NPM observed at pina.
+    <Name>Amplitude npm-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_amp_(GO-ABOVE station)_npm</ParameterKey>
+   <Description>Amplitude of VLF transmitter NPM observed at (GO-ABOVE station).
 Amplitude is calculated separately for North-South and East-West antennas.</Description>
    <Units>ADC units</Units>
    <Field>
@@ -235,9 +275,9 @@ Amplitude is calculated separately for North-South and East-West antennas.</Desc
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Bearing npm-pina</Name>
-    <ParameterKey>abv_bearing_pina_npm</ParameterKey>
-   <Description>Bearing to VLF transmitter NPM observed at pina.
+    <Name>Bearing npm-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_bearing_(GO-ABOVE station)_npm</ParameterKey>
+   <Description>Bearing to VLF transmitter NPM observed at (GO-ABOVE station).
 Bearing direction is based on amplitudes from the 2 antennas and always between 0 (N/S) and 90 (E/W) degrees.
 </Description>
    <Units>degrees</Units>
@@ -247,9 +287,9 @@ Bearing direction is based on amplitudes from the 2 antennas and always between 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Phase nrk-pina</Name>
-    <ParameterKey>abv_phase_pina_nrk</ParameterKey>
-   <Description>Phase of VLF transmitter NRK observed at pina.
+    <Name>Phase nrk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_phase_(GO-ABOVE station)_nrk</ParameterKey>
+   <Description>Phase of VLF transmitter NRK observed at (GO-ABOVE station).
 Phases for upper (space) and lower (mark) frequencies have been combined. Phase is calculated along direction of maximum amplitude.</Description>
    <Units>radians</Units>
    <Field>
@@ -258,9 +298,9 @@ Phases for upper (space) and lower (mark) frequencies have been combined. Phase 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Amplitude nrk-pina</Name>
-    <ParameterKey>abv_amp_pina_nrk</ParameterKey>
-   <Description>Amplitude of VLF transmitter NRK observed at pina.
+    <Name>Amplitude nrk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_amp_(GO-ABOVE station)_nrk</ParameterKey>
+   <Description>Amplitude of VLF transmitter NRK observed at (GO-ABOVE station).
 Amplitude is calculated separately for North-South and East-West antennas.</Description>
    <Units>ADC units</Units>
    <Field>
@@ -269,9 +309,9 @@ Amplitude is calculated separately for North-South and East-West antennas.</Desc
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Bearing nrk-pina</Name>
-    <ParameterKey>abv_bearing_pina_nrk</ParameterKey>
-   <Description>Bearing to VLF transmitter NRK observed at pina.
+    <Name>Bearing nrk-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_bearing_(GO-ABOVE station)_nrk</ParameterKey>
+   <Description>Bearing to VLF transmitter NRK observed at (GO-ABOVE station).
 Bearing direction is based on amplitudes from the 2 antennas and always between 0 (N/S) and 90 (E/W) degrees.
 </Description>
    <Units>degrees</Units>
@@ -281,9 +321,9 @@ Bearing direction is based on amplitudes from the 2 antennas and always between 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Phase wwvb-pina</Name>
-    <ParameterKey>abv_phase_pina_wwvb</ParameterKey>
-   <Description>Phase of VLF transmitter WWVB observed at pina.
+    <Name>Phase wwvb-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_phase_(GO-ABOVE station)_wwvb</ParameterKey>
+   <Description>Phase of VLF transmitter WWVB observed at (GO-ABOVE station).
 Phases for upper (space) and lower (mark) frequencies have been combined. Phase is calculated along direction of maximum amplitude.</Description>
    <Units>radians</Units>
    <Field>
@@ -292,9 +332,9 @@ Phases for upper (space) and lower (mark) frequencies have been combined. Phase 
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Amplitude wwvb-pina</Name>
-    <ParameterKey>abv_amp_pina_wwvb</ParameterKey>
-   <Description>Amplitude of VLF transmitter WWVB observed at pina.
+    <Name>Amplitude wwvb-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_amp_(GO-ABOVE station)_wwvb</ParameterKey>
+   <Description>Amplitude of VLF transmitter WWVB observed at (GO-ABOVE station).
 Amplitude is calculated separately for North-South and East-West antennas.</Description>
    <Units>ADC units</Units>
    <Field>
@@ -303,9 +343,9 @@ Amplitude is calculated separately for North-South and East-West antennas.</Desc
    </Field>
   </Parameter>
   <Parameter>
-    <Name>Bearing wwvb-pina</Name>
-    <ParameterKey>abv_bearing_pina_wwvb</ParameterKey>
-   <Description>Bearing to VLF transmitter WWVB observed at pina.
+    <Name>Bearing wwvb-(GO-ABOVE station)</Name>
+    <ParameterKey>abv_bearing_(GO-ABOVE station)_wwvb</ParameterKey>
+   <Description>Bearing to VLF transmitter WWVB observed at (GO-ABOVE station).
 Bearing direction is based on amplitudes from the 2 antennas and always between 0 (N/S) and 90 (E/W) degrees.
 </Description>
    <Units>degrees</Units>
